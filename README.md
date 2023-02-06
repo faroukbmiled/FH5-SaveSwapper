@@ -28,4 +28,15 @@ https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBy
 
 PS:
 I'm currently experimenting new methods to completely migrate the save to your account rather than using the save bypass every time you want to play <br/>
-You can always edit the script and make the input values static if you want to use it with the same account/save so you don't have to put the XUIDs every time
+You can always edit the script and change the input values to variables if you want to use it with the same account/save so you don't have to put the XUIDs every time
+
+From:
+```lua
+searchvalue = inputQuery('Value Prompt', "Current XUID in Dec",'')
+repalcevalue = inputQuery('Value Prompt', "Save XUID in dec",'')
+```
+to:
+```lua
+searchvalue = "yourxuid"
+repalcevalue = "savexuid"
+```
