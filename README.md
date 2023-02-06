@@ -1,10 +1,10 @@
 ## Simple CE script meant to be used to bypass the invalid profile error without doing too much.
 
 ### Usage:
-You can follow this video on YT:
-https://youtu.be/HNWceHMSFnc
+You can follow this video on [youtube](https://youtu.be/HNWceHMSFnc)
 
-If you have the error already just run the script using a recompile/modded CE just like draffs one from Forza mods discord :https://discord.gg/forzamods
+
+If you have the error already just run the script using a recompile/modded CE just like draffs one from Forza mods discord : [server](https://discord.gg/forzamods)
 
 ### if you don't follow these simple steps:
 - Step 1: Download your desired save game
@@ -17,14 +17,15 @@ If you have the error already just run the script using a recompile/modded CE ju
 
 
 ### Links:
-- dec to hex = https://www.rapidtables.com/convert/number/decimal-to-hex.html
-- Find your account's XUID = https://cxkes.me/xbox/xuid
+- [dec to hex](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
+- [Find your account's XUID](https://cxkes.me/xbox/xuid)
 
 How to compile your own CE:
-- https://www.unknowncheats.me/forum/anti-cheat-bypass/504191-undetected-cheat-engine-driver-2022-bypass-anticheats-eac.html
+- [Modded CE Tuto](https://www.unknowncheats.me/forum/anti-cheat-bypass/504191-undetected-cheat-engine-driver-2022-bypass-anticheats-eac.html)
 
 ### Download:
-https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBypassByRyuk.CT
+[Latest version](https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBypassByRyuk.CT)
+<hr>
 
 PS:
 I'm currently experimenting new methods to completely migrate the save to your account rather than using the save bypass every time you want to play <br/>
@@ -42,4 +43,4 @@ repalcevalue = "savexuid"
 ```
 
 ## Doing it manually:
-- https://www.youtube.com/watch?v=3P7BuSOjTkc
+- [youtube video](https://www.youtube.com/watch?v=3P7BuSOjTkc)
