@@ -17,7 +17,7 @@ If you have the error already just run the script using a recompile/modded CE ju
 
 
 ### Links:
-- dec to hex = https//www.rapidtables.com/convert/number/decimal-to-hex.html
+- dec to hex = https://www.rapidtables.com/convert/number/decimal-to-hex.html
 - Find your account's XUID = https://cxkes.me/xbox/xuid
 
 How to compile your own CE:
