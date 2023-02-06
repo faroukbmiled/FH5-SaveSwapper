@@ -20,7 +20,7 @@ If you have the error already just run the script using a recompile/modded CE ju
 - dec to hex = https//www.rapidtables.com/convert/number/decimal-to-hex.html
 - Find your account's XUID = https://cxkes.me/xbox/xuid
 
-How to recompile your own CE:
+How to compile your own CE:
 - https://www.unknowncheats.me/forum/anti-cheat-bypass/504191-undetected-cheat-engine-driver-2022-bypass-anticheats-eac.html
 
 ### Download:
