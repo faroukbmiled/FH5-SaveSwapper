@@ -29,7 +29,7 @@ local function autoAttachTimer_tick(timer)
               local address = foundlist.Address[i]
               writeQword(address, repalcevalue)
            end
-           local confirm = messageDialog("Continue?, make sure your in menu before pressing continue", mtConfirmation, mbYesNo)
+           local confirm = messageDialog("Continue?, Make sure your in menu before pressing yes", mtConfirmation, mbYesNo)
            if confirm == mrYes then
               memscan.firstScan(
               soExactValue, vtQword, rtRounded,
