@@ -40,3 +40,6 @@ to:
 searchvalue = "yourxuid"
 repalcevalue = "savexuid"
 ```
+
+Manual way:
+https://www.youtube.com/watch?v=3P7BuSOjTkc
