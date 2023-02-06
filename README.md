@@ -41,5 +41,5 @@ searchvalue = "yourxuid"
 repalcevalue = "savexuid"
 ```
 
-## Doing it Manual way:
+## Doing it manually:
 - https://www.youtube.com/watch?v=3P7BuSOjTkc
