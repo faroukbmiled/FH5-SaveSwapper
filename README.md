@@ -25,3 +25,6 @@ How to compile your own CE:
 
 ### Download:
 https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBypassByRyuk.CT
+
+PS:
+I'm currently experimenting new methods to completely migrate the save to your account rather than using the save bypass every time you want to play 
