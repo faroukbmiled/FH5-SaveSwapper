@@ -29,17 +29,15 @@ How to compile your own CE:
 
 PS:
 I'm currently experimenting new methods to completely migrate the save to your account rather than using the save bypass every time you want to play <br/>
-You can always edit the script and change the input values to variables if you want to use it with the same account/save so you don't have to put the XUIDs every time
 
-From:
-```lua
-searchvalue = inputQuery('Value Prompt', "Current XUID in Dec",'')
-repalcevalue = inputQuery('Value Prompt', "Save XUID in dec",'')
-```
-to:
-```lua
-searchvalue = "yourxuid"
-repalcevalue = "savexuid"
+- You can always edit the config file later (swapper.ini) if you changed your account or savegame
+
+eg:
+```ini
+[AccountXUID]
+2535406567317203
+[SaveXUID]
+2533274811725688
 ```
 
 ## Doing it manually:
