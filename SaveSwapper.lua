@@ -1,5 +1,20 @@
-searchvalue = inputQuery('Value Prompt', "Current XUID in Dec",'')
-repalcevalue = inputQuery('Value Prompt', "Save XUID in dec",'')
+local file = io.open("swapper.ini", "r")
+  if file then
+    searchvalue = file:read("*line")
+    searchvalue = string.gsub(searchvalue, "%[Current XUID%]", "")
+    searchvalue = string.gsub(searchvalue, "%s", "")
+    repalcevalue = file:read("*line")
+    repalcevalue = string.gsub(repalcevalue, "%[Save XUID%]", "")
+    repalcevalue = string.gsub(repalcevalue, "%s", "")
+    file:close()
+  else
+    searchvalue = inputQuery('Value Prompt', "Current XUID (decimal)",'')
+    repalcevalue = inputQuery('Value Prompt', "Save XUID (decimal)",'')
+    file = io.open("config.ini", "w")
+    file:write("[Current XUID]\n" .. searchvalue .. "\n[Save XUID]\n" .. repalcevalue)
+    file:close()
+  end
+
 PROCESS_NAME = "ForzaHorizon5.exe"
 local autoAttachTimer = nil
 local autoAttachTimerInterval = 100
@@ -29,7 +44,7 @@ local function autoAttachTimer_tick(timer)
               local address = foundlist.Address[i]
               writeQword(address, repalcevalue)
            end
-           local confirm = messageDialog("Continue?, Make sure your in menu before pressing yes", mtConfirmation, mbYesNo)
+           local confirm = messageDialog("Continue?, Make sure your in menu before pressing Yes", mtConfirmation, mbYesNo)
            if confirm == mrYes then
               memscan.firstScan(
               soExactValue, vtQword, rtRounded,
