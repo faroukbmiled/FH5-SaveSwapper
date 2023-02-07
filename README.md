@@ -24,7 +24,7 @@ How to compile your own CE:
 - [Modded CE Tuto](https://www.unknowncheats.me/forum/anti-cheat-bypass/504191-undetected-cheat-engine-driver-2022-bypass-anticheats-eac.html)
 
 ### Download:
-[Latest version](https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBypassByRyuk.CT)
+[Latest version](https://github.com/faroukbmiled/FH5-SaveSwapper/releases/download/Release/SaveBypasserByRyuk.CT)
 <hr>
 
 PS:
