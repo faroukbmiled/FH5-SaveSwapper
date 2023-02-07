@@ -10,7 +10,7 @@ local file = io.open("swapper.ini", "r")
   else
     searchvalue = inputQuery('Value Prompt', "Current XUID (decimal)",'')
     repalcevalue = inputQuery('Value Prompt', "Save XUID (decimal)",'')
-    file = io.open("config.ini", "w")
+    file = io.open("swapper.ini", "w")
     file:write("[Current XUID]\n" .. searchvalue .. "\n[Save XUID]\n" .. repalcevalue)
     file:close()
   end
